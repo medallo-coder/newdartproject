@@ -4,6 +4,7 @@ Map<String, List<int>> productos = {
   'Postobon':  [30, 31, 32, 33, 34, 35, 36],
 };
 
+// Lista de días de la semana
 List<String> diasSemana = [
   'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'
 ];

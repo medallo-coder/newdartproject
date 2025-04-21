@@ -5,7 +5,7 @@ void mostrarResumen() {
 
   productos.forEach((producto, precios) {
     // Usamos `reduce` para calcular el total
-    int total = precios.reduce((a, b) => a + b);
+    int total = precios.reduce((acumulador, valorproximo) => acumulador + valorproximo);
 
     // Mostrar precios por día y encontrar el día con el precio máximo
     int precioMax = precios[0];
